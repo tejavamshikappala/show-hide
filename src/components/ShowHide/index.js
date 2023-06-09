@@ -18,8 +18,8 @@ class ShowHide extends Component {
     let Auth
     if (value === true) {
       Auth = (
-        <div className="for_hide">
-          <p className="forname">Joe</p>
+        <div className="for-hide">
+          <p className="for-name">Joe</p>
         </div>
       )
     }
@@ -27,21 +27,21 @@ class ShowHide extends Component {
     let AuthSec
     if (same === true) {
       AuthSec = (
-        <div className="for_hide">
-          <p className="forname">Jonas</p>
+        <div className="for-hide">
+          <p className="for-name">Jonas</p>
         </div>
       )
     }
 
     return (
-      <div className="for_outer_container">
+      <div className="for-outer-container">
         <div>
-          <h1 className="for_header">Show/Hide</h1>
-          <div className="for_inner">
-            <div className="button_margin">
+          <h1 className="for-header">Show/Hide</h1>
+          <div className="for-inner">
+            <div className="button-margin">
               {' '}
               <button
-                className="for_button"
+                className="for-button"
                 type="button"
                 onClick={this.onAdding}
               >
@@ -49,10 +49,10 @@ class ShowHide extends Component {
               </button>
               {Auth}
             </div>
-            <div className="button_margin">
+            <div className="button-margin">
               {' '}
               <button
-                className="for_button"
+                className="for-button"
                 type="button"
                 onClick={this.onAddSecond}
               >

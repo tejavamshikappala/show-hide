@@ -1,9 +1,9 @@
-.for_inner {
+.for-inner {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.for_outer_container {
+.for-outer-container {
   background-image: linear-gradient(to right, #fa7257, #fc63a7);
   min-height: 100vh;
   display: flex;
@@ -11,14 +11,14 @@
   align-items: center;
   padding: 30px;
 }
-.for_header {
+.for-header {
   font-size: 64px;
   color: #ffffff;
   font-family: 'Roboto';
   text-align: center;
   margin-bottom: 15px;
 }
-.for_button {
+.for-button {
   background-color: #ffffff;
   border-radius: 20px;
   padding: 20px;
@@ -29,7 +29,7 @@
   font-size: 19px;
   font-family: 'Roboto';
 }
-.for_hide {
+.for-hide {
   background-color: #fddddb;
   border-radius: 20px;
   padding: 30px;
@@ -39,14 +39,14 @@
   margin: 10px;
 }
 
-.forname {
+.for-name {
   align-items: center;
   font-family: 'Roboto';
   font-size: 34px;
   font-weight: 600;
 }
 @media screen and (min-width: 768px) {
-  .button_margin {
+  .button-margin {
     margin-left: 90px;
     margin-right: 90px;
   }
